@@ -1,0 +1,707 @@
+*{padding: 0;
+margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+/* Aqui empieza el css de la pagina " index" */
+
+body { 
+    background-color: black;
+    }
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    border: 3px double rgb(165, 160, 160);
+    padding: 1px;
+    }
+
+.menu{
+    background-color: rgb(83, 100, 6);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+.leyendas{
+    border: solid  rgb(83, 100, 6);
+    margin-bottom: 10px;
+    margin-top: 1%;
+    height: 100px;
+    width: 100px;
+    }
+
+.imagenesLeyendas{
+    display: grid;
+    grid-template-columns: 100px 100px 150px;
+    gap: 1%;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+    }
+
+/* Aqui empieza el css de la pagina " historia" */
+
+.menu1{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+
+.equipo{
+    border: solid 4px rgb(78, 78, 78);
+    border-radius: 4%;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    width: 300px;
+    height: 200px;
+    }
+
+.imagenHistoria {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+/* Aqui empieza el css de la pagina "jordan" */
+
+
+.menu2{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(134, 4, 4);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+.jordan{
+    border-radius: 2%;
+    border: solid 2px black;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    width: 100px;
+    height: 100px;
+    
+    }
+
+.imagenesJordan{
+    background: rgb(143, 1, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    }
+
+/* Aqui empeiza el css de la pagina Kobe */
+
+
+.menu3{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1px;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+.kobe{
+    border: solid 2px black;
+    border-radius: 2%;
+    margin-bottom: 12px;
+    margin-top: 1%;
+    width: 100px;
+    height: 100px;
+    }
+
+.imagenesKobe{
+    background: goldenrod;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    
+    }
+
+/* Aqui empeiza el css de la pagina "lebron" */
+
+.menu4{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    }
+
+.lebron{
+    border: solid 2px black;
+    border-radius: 2%;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    width: 200px;
+    height: 100px;
+    }
+
+.imagenesLebron{
+    background: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    }
+
+/* Estos estilos de CSS se usaron en general para toda la pagina */
+
+h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    }
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder ;
+    color: white;
+    font-size: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    display: flex;
+    margin-bottom: 5px;
+    }
+
+p{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    word-spacing: 3px;
+    padding-left: 1%;
+    padding-right: 2%;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    margin-bottom: 10px;
+    }
+    
+footer{
+        background-color: rgb(161, 187, 44);
+        border: double;
+        }
+    
+    .redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+    
+
+
+/* Aqui empieza el breackpoint para pantallas medianas */
+
+@media ( min-width: 500px ) {
+
+    /* Aqui empieza el css de la pagina " index" */
+
+body { 
+    background-color:black;
+    }
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    border: 5px double rgb(165, 160, 160);
+    padding: 3px;
+    }
+
+.menu{
+    background-color: rgb(83, 100, 6);
+    display: flex;
+    flex-direction: column;
+    }
+
+.leyendas{
+    border: solid  rgb(83, 100, 6);
+    margin-bottom: 20px;
+    margin-top: 2%;
+    height: 200px;
+    width: 200px;
+    }
+
+.imagenesLeyendas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+    padding: 20px;
+    justify-content: space-between;
+    }
+
+/* Aqui empieza el css de la pagina " historia" */
+
+.menu1{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+
+.equipo{
+    border: solid 4px rgb(78, 78, 78);
+    border-radius: 4%;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    width: 400px;
+    height: 300px;
+    }
+
+.imagenHistoria {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+/* Aqui empieza el css de la pagina "jordan" */
+
+
+.menu2{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(134, 4, 4);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+.jordan{
+    border-radius: 2%;
+    border: solid 2px black;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    width: 200px;
+    height: 200px;
+    
+    }
+
+.imagenesJordan{
+    background: rgb(143, 1, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    }
+
+/* Aqui empeiza el css de la pagina Kobe */
+
+
+.menu3{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1px;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+.kobe{
+    border: solid 2px black;
+    border-radius: 2%;
+    margin-bottom: 12px;
+    margin-top: 1%;
+    width: 200px;
+    height: 200px;
+    }
+
+.imagenesKobe{
+    background: goldenrod;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    }
+
+/* Aqui empeiza el css de la pagina "lebron" */
+
+.menu4{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+
+.lebron{
+    border: solid 2px black;
+    border-radius: 2%;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    width: 350px;
+    height: 200px;
+    }
+
+.imagenesLebron{
+    background: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    }
+
+/* Estos estilos de CSS se usaron en general para toda la pagina */
+
+h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    }
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder ;
+    color: white;
+    font-size: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    display: flex;
+    margin-bottom: 5px;
+    }
+
+p{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    word-spacing: 3px;
+    padding-left: 1%;
+    padding-right: 2%;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    margin-bottom: 10px;
+    }
+
+footer{
+    background-color: rgb(161, 187, 44);
+    border: double;
+    }
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+    display: flex;
+    }
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder ;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    display: flex;
+    }
+
+p{
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+    word-spacing: 3px;
+    padding-left: 1%;
+    padding-right: 2%;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    }
+
+footer{
+    background-color: rgb(161, 187, 44);
+    border: double;
+    }
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+/* Aqui empieza el breackpoint para pantallas garndes */
+
+@media (min-width: 1024px ) {
+
+
+body { 
+    background-color: black;
+    }
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    border: 10px double rgb(165, 160, 160);
+    padding: 3px;
+    }
+
+.menu{
+    background-color: rgb(83, 100, 6);
+    display: flex;
+    flex-direction: column;
+    }
+
+.leyendas{
+    border: solid  rgb(83, 100, 6);
+    margin-bottom: 30px;
+    margin-top: 2%;
+    height: 300px;
+    width: 300px;
+    }
+
+.imagenesLeyendas{
+    display: grid;
+    grid-template-columns: 300px 300px 400px;
+    gap: 5%;
+    padding: 30px;
+    justify-content: space-between;
+    }
+
+/* Aqui empieza el css de la pagina " historia" */
+
+.menu1{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+
+.equipo{
+    border: solid 10px rgb(78, 78, 78);
+    border-radius: 10%;
+    margin-bottom: 30px;
+    margin-top: 2%;
+    width: 800px;
+    height: 400px;
+    }
+
+.imagenHistoria {
+    display: flex;
+    justify-content: center;
+    }
+
+/* Aqui empieza el css de la pagina "jordan" */
+
+
+.menu2{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(134, 4, 4);
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.jordan{
+    border-radius: 5%;
+    border: solid 5px black;
+    margin-bottom: 30px;
+    margin-top: 2%;
+    width: 250px;
+    height: 250px;
+    
+    }
+
+.imagenesJordan{
+    background: rgb(143, 1, 1);
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    }
+
+/* Aqui empeiza el css de la pagina Kobe */
+
+
+.menu3{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.kobe{
+    border: solid 5px black;
+    border-radius: 5%;
+    margin-bottom: 30px;
+    margin-top: 2%;
+    width: 300px;
+    height: 300px;
+    }
+
+.imagenesKobe{
+    background: goldenrod;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    }
+
+/* Aqui empeiza el css de la pagina "lebron" */
+
+.menu4{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.lebron{
+    border: solid 5px bl;
+    border-radius: 5%;
+    margin-bottom: 30px;
+    margin-top: 2%;
+    width: 500px;
+    height: 400px;
+    }
+
+.imagenesLebron{
+    background: blueviolet;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: space-evenly;
+    }
+
+/* Estos estilos de CSS se usaron en general para toda la pagina */
+
+h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+    }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    }
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder ;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+    display: flex;
+    }
+
+p{
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+    word-spacing: 5px;
+    padding-left: 1%;
+    padding-right: 2%;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    }
+
+footer{
+        background-color: rgb(161, 187, 44);
+        border: double;
+        }
+    
+.redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+    
+}
