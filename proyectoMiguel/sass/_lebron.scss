@@ -29,9 +29,9 @@ main {
 
 .imagenesLebron{
     background: $colorLebron;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 5%;
     margin-bottom: 5%;
     .lebron{

@@ -1,4 +1,4 @@
-$colorJordan: rgb(134, 4, 4); 
+$colorJordan: rgb(134, 4, 4);
 
 @media ( max-width: 499px ) {
 
@@ -30,8 +30,9 @@ main {
 .imagenesJordan{
     background: $colorJordan;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 50% 50%;
     margin-bottom: 1%; 
     padding-left: 10PX;
     padding-top: 2%;

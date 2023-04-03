@@ -31,8 +31,9 @@ main {
 .imagenesKobe{
     background: $colorKobe;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 50% 50%;
     margin-bottom: 12px;
     padding-left: 10px;
     padding-top: 2%;
