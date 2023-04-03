@@ -1,0 +1,109 @@
+@import "variablesgenerales";
+@import "generales";
+@import "raiz";
+@import "historia";
+@import "jordan";
+@import "kobe";
+@import "lebron";
+
+
+@media ( min-width: 500px ) {
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+    }
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    }
+
+p{
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    word-spacing: 3px;
+    padding-left: 1%;
+    padding-right: 2%;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    margin-bottom: 10px;
+    }
+
+footer{
+    background-color: rgb(161, 187, 44);
+    border: double;
+    }
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    
+}
+    
+@media (min-width: 1024px ) {
+
+h1{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 1%;
+        }
+
+nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end
+        }
+    
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    }
+    
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder ;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+    display: flex;
+    }
+
+p{
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+    word-spacing: 5px;
+    padding-left: 1%;
+    padding-right: 2%;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    }
+
+footer{
+        background-color: rgb(161, 187, 44);
+        border: double;
+        }
+        
+.redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+}

@@ -1,0 +1,137 @@
+$colorKobe:  rgb(163, 124, 27);
+@media ( max-width: 499px ) {
+
+header {
+    .menu3{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1px;
+    background-color: $colorKobe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+    }
+}
+
+main {
+    .texto3 {
+        border: 2px solid $colorKobe;
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .texto3:hover {
+        transform: translate(2px, 2px) ;
+    }
+    .mejoresJugadasKobe:hover {
+        transform: translate(30px);
+    }
+}
+
+.imagenesKobe{
+    background: $colorKobe;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    padding-top: 2%;
+    .kobe{
+        border: solid 2px black;
+        border-radius: 2%;
+        margin-bottom: 12px;
+        margin-top: 1%;
+        width: 120px;
+        height: 120px;
+        }
+    }
+}
+
+@media ( min-width: 500px ) { 
+
+header {
+    .menu3{
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 1px;
+        background-color: $colorKobe;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+        }
+    }
+
+main {
+    .texto3 {
+        border: 2px solid $colorKobe;
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .texto3:hover {
+        transform: translate(2px, 2px) ;
+    }
+    .mejoresJugadasKobe:hover {
+        transform: translate(30px);
+    }
+    }
+
+.imagenesKobe{
+    background: $colorKobe;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    }
+    .kobe{
+        border: solid 2px black;
+        border-radius: 2%;
+        margin-bottom: 12px;
+        margin-top: 1%;
+        width: 200px;
+        height: 200px;
+        }
+    }
+
+    @media (min-width: 1024px ) { 
+
+header {
+    .menu3{
+        font-family: 'Roboto', sans-serif;
+        background-color: $colorKobe;
+        display: flex;
+        justify-content: flex-end;
+        }
+            }
+
+main {
+    .texto3 {
+        border: 2px solid $colorKobe;
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .texto3:hover {
+        transform: translate(2px, 2px) ;
+    }
+    .mejoresJugadasKobe:hover {
+        transform: translate(30px);
+    }
+    }
+
+.imagenesKobe{
+    background: $colorKobe;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    }
+    .kobe{
+        border: solid 5px black;
+        border-radius: 5%;
+        margin-bottom: 30px;
+        margin-top: 2%;
+        width: 300px;
+        height: 300px;
+        }
+    }
+

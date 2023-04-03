@@ -1,0 +1,131 @@
+$colorLebron: blueviolet;
+@media ( max-width: 499px ) {
+
+header {
+    .menu4{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1px;
+    background-color: $colorLebron;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    }
+}
+
+main {
+    .texto4{
+        border: 2px solid  $colorLebron; ;
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .texto4:hover {
+        transform: translate(2px, 2px) ;
+    }
+    .mejoresJugadasLebron:hover { 
+        transform: translate( 30px);
+    }
+}
+
+.imagenesLebron{
+    background: $colorLebron;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+    padding: 5%;
+    margin-bottom: 5%;
+    .lebron{
+        border: solid 2px black;
+        border-radius: 5%;
+        margin-bottom: 10px;
+        margin-top: 1%;
+        width: 200px;
+        height: 100px;
+        }
+    }
+}
+
+@media ( min-width: 500px ) { 
+    .menu4{
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 1px;
+        background-color: $colorLebron;
+        display: flex;
+        justify-content: space-around;
+        }
+
+main {
+    .texto4{
+        border: 2px solid  $colorLebron; ;
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .texto4:hover {
+        transform: translate(2px, 2px) ;
+    }
+    .mejoresJugadasLebron:hover { 
+        transform: translate( 30px);
+    }
+} 
+
+.imagenesLebron{
+    background: $colorLebron;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    }
+    .lebron{
+        border: solid 2px black;
+        border-radius: 2%;
+        margin-bottom: 10px;
+        margin-top: 1%;
+        width: 350px;
+        height: 200px;
+        }
+}
+
+@media (min-width: 1024px ) { 
+
+.menu4{
+    font-family: 'Roboto', sans-serif;
+    background-color: $colorLebron;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+main {
+    h2{
+        font-size: 30px;
+    }
+    .texto4{
+        border: 2px solid  $colorLebron; ;
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+    .texto4:hover {
+        transform: translate(2px, 2px) ;
+    }
+    .mejoresJugadasLebron:hover { 
+        transform: translate( 30px);
+    }
+}
+
+.imagenesLebron{
+    background: blueviolet;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    }
+    .lebron{
+        border: solid 5px bl;
+        border-radius: 5%;
+        margin-bottom: 30px;
+        margin-top: 2%;
+        width: 500px;
+        height: 400px;
+        }
+}

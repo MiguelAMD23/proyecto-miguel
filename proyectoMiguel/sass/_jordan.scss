@@ -1,0 +1,138 @@
+$colorJordan: rgb(134, 4, 4);
+
+@media ( max-width: 499px ) {
+
+header {
+    .menu2{
+    font-family: 'Roboto', sans-serif;
+    background-color: $colorJordan;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    }
+}
+
+main {
+    .texto2 {
+    border: 2px solid $colorJordan; 
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+    .texto2:hover {
+        transform: translate(2px, 2px) ;
+        }
+        .mejoresJugadasMJ:hover {
+        transform: translate(30px);
+        }
+}
+
+.imagenesJordan{
+    background: $colorJordan;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+    margin-bottom: 1%; 
+    padding-left: 10PX;
+    padding-top: 2%;
+    .jordan{
+        border-radius: 5%;
+        border: solid 2px black;
+        margin-bottom: 10px;
+        margin-top: 1%;
+        width: 100px;
+        height: 100px;
+        
+        }
+    
+    }
+}
+
+@media ( min-width: 500px ) { 
+
+header {
+    .menu2{
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(134, 4, 4);
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+        }
+    }
+
+main {
+        .texto2 {
+        border: 2px solid $colorJordan; 
+        padding: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+        }
+        .texto2:hover {
+            transform: translate(2px, 2px) ;
+            }
+            .mejoresJugadasMJ:hover {
+            transform: translate(30px);
+            }
+    }
+
+.imagenesJordan{
+    background: rgb(143, 1, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    }
+    .jordan{
+        border-radius: 2%;
+        border: solid 2px black;
+        margin-bottom: 10px;
+        margin-top: 1%;
+        width: 200px;
+        height: 200px;
+        }
+}
+
+@media (min-width: 1024px ) {  
+
+header {
+    .menu2{
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(134, 4, 4);
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 15px;
+        }
+    }
+    
+main {
+        .texto2 {
+        border: 2px solid $colorJordan; 
+        padding: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+        }
+        .texto2:hover {
+            transform: translate(2px, 2px) ;
+            }
+            .mejoresJugadasMJ:hover {
+            transform: translate(30px);
+            }
+    }
+    
+    .imagenesJordan{
+        background: rgb(143, 1, 1);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+        margin-bottom: 1%;
+        }
+        .jordan{
+            border-radius: 5%;
+            border: solid 5px black;
+            margin-bottom: 30px;
+            margin-top: 2%;
+            width: 250px;
+            height: 250px;
+            }
+    }
+

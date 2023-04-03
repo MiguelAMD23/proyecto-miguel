@@ -1,0 +1,125 @@
+@media ( max-width: 499px ) {
+
+header{
+    .menu {
+        background-color: rgb(83, 100, 6);
+        margin-bottom: 15px;
+        }  
+    }
+
+main {
+    .texto{
+            border: 2px solid rgb(161, 187, 44);
+            padding: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    .texto:hover {
+            transform: translate(2px, 2px) ;
+        }
+}
+
+.imagenesLeyendas{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1%;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+    .leyendas{
+        border: solid  rgb(83, 100, 6);
+        margin-bottom: 10px;
+        margin-top: 1%;
+        height: 110px;
+        width: 110px;
+        }
+    }
+}
+
+@media ( min-width: 500px ) {
+    header{
+        .menu {
+            background-color: rgb(83, 100, 6);
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            }  
+        }
+
+.imagenesLeyendas{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 3%;
+        padding: 15px;
+        justify-content: space-between;
+        margin-top: 10px;
+        .leyendas{
+            border: solid  rgb(83, 100, 6);
+            margin-bottom: 10px;
+            margin-top: 1%;
+            height: 150px;
+            width: 150px;
+            }
+        }
+    
+    main {
+        .texto{
+            border: 2px solid rgb(161, 187, 44);
+            padding: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .texto:hover {
+            transform: translate(2px, 2px) ;
+        }
+    }
+}
+
+@media (min-width: 1024px ) { 
+    header{
+        .menu {
+            background-color: rgb(83, 100, 6);
+            margin-bottom: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            }  
+        }
+
+main {
+            .texto{
+                border: 2px solid rgb(161, 187, 44);
+                padding: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 20px;
+                margin-top: 2px;
+            }
+            .texto:hover {
+                transform: translate(2px, 2px) ;
+            }
+}
+
+.imagenesLeyendas{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 10%;
+        padding: 30px;
+        justify-content: space-between;
+        margin-top: 10px;
+        .leyendas{
+            border: solid  rgb(83, 100, 6);
+            margin-bottom: 10px;
+            margin-top: 1%;
+            height: 300px;
+            width: 300px;
+            }
+        }
+}
