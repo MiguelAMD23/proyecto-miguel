@@ -5,16 +5,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
 
 body { 
-        background-image: linear-gradient(black , rgb(95, 94, 94))
-        }
-
-ul li {
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        border: 3px double rgb(165, 160, 160);
-        padding: 1px;
-        font-size: 15px;
+        background-color: black;
         }
 
 ul li:hover {
@@ -76,10 +67,7 @@ footer{
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            }
-            .redes:hover {
-                transform: scale(1.5);
-            }
         }
+    }
 
 

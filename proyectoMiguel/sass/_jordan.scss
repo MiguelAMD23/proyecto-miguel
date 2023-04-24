@@ -2,16 +2,6 @@ $colorJordan: rgb(134, 4, 4);
 
 @media ( max-width: 499px ) {
 
-header {
-    .menu2{
-    font-family: 'Roboto', sans-serif;
-    background-color: $colorJordan;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-    }
-}
-
 main {
     .texto2 {
     border: 2px solid $colorJordan; 
@@ -43,23 +33,11 @@ main {
         margin-top: 1%;
         width: 100px;
         height: 100px;
-        
         }
-    
     }
 }
 
 @media ( min-width: 500px ) { 
-
-header {
-    .menu2{
-        font-family: 'Roboto', sans-serif;
-        background-color: rgb(134, 4, 4);
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 15px;
-        }
-    }
 
 main {
         .texto2 {
@@ -82,6 +60,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     margin-bottom: 1%;
+    padding-left: 20px;
     }
     .jordan{
         border-radius: 2%;
@@ -95,16 +74,6 @@ main {
 
 @media (min-width: 1024px ) {  
 
-header {
-    .menu2{
-        font-family: 'Roboto', sans-serif;
-        background-color: rgb(134, 4, 4);
-        display: flex;
-        justify-content: flex-end;
-        margin-bottom: 15px;
-        }
-    }
-    
 main {
         .texto2 {
         border: 2px solid $colorJordan; 
@@ -126,6 +95,7 @@ main {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: space-between;
         margin-bottom: 1%;
+        padding-left: 20px;
         }
         .jordan{
             border-radius: 5%;

@@ -1,18 +1,6 @@
 $colorKobe:  rgb(163, 124, 27);
 @media ( max-width: 499px ) {
 
-header {
-    .menu3{
-    font-family: 'Roboto', sans-serif;
-    padding-bottom: 1px;
-    background-color: $colorKobe;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 10px;
-    }
-}
-
 main {
     .texto3 {
         border: 2px solid $colorKobe;
@@ -50,16 +38,6 @@ main {
 
 @media ( min-width: 500px ) { 
 
-header {
-    .menu3{
-        font-family: 'Roboto', sans-serif;
-        padding-bottom: 1px;
-        background-color: $colorKobe;
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 15px;
-        }
-    }
 
 main {
     .texto3 {
@@ -82,6 +60,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     margin-bottom: 12px;
+    padding-left: 20px;
     }
     .kobe{
         border: solid 2px black;
@@ -94,15 +73,6 @@ main {
     }
 
     @media (min-width: 1024px ) { 
-
-header {
-    .menu3{
-        font-family: 'Roboto', sans-serif;
-        background-color: $colorKobe;
-        display: flex;
-        justify-content: flex-end;
-        }
-            }
 
 main {
     .texto3 {
@@ -125,6 +95,7 @@ main {
     grid-template-columns: 400px 400px 400px;
     justify-content: space-between;
     margin-bottom: 30px;
+    padding-left: 20px;
     }
     .kobe{
         border: solid 5px black;

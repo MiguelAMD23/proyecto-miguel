@@ -1,12 +1,5 @@
 @media ( max-width: 499px ) {
 
-header{
-    .menu {
-        background-color: rgb(83, 100, 6);
-        margin-bottom: 15px;
-        }  
-    }
-
 main {
     .texto{
             border: 2px solid rgb(161, 187, 44);
@@ -50,7 +43,7 @@ main {
 
 .imagenesLeyendas{
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 30% 30% 30%;
         gap: 3%;
         padding: 15px;
         justify-content: space-between;
@@ -80,15 +73,6 @@ main {
 }
 
 @media (min-width: 1024px ) { 
-    header{
-        .menu {
-            background-color: rgb(83, 100, 6);
-            margin-bottom: 5px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            }  
-        }
 
 main {
             .texto{
@@ -108,8 +92,8 @@ main {
 
 .imagenesLeyendas{
         display: grid;
-        grid-template-columns: 33% 33% 33%;
-        gap: 10%;
+        grid-template-columns: 1fr, 1fr, 1fr;
+        gap: 5%;
         padding: 30px;
         justify-content: space-between;
         margin-top: 10px;
